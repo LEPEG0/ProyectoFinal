@@ -1,0 +1,17 @@
+<input #msg class="form-control" (keyup.enter)="ver(msg.value)" type="text">
+
+<ng-container *ngIf="index !==-1 else noexiste">
+    <div>
+        <br>
+        <div class="card-block">
+            <div class="card-title">
+                <p style="font-size: 20px;">SI!! Afortunadamente si contamos con disponibilidad de Airbnb en {{datos.pais}}</p>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+<ng-template #noexiste>
+    <br>
+    <p style="font-size: 20px;">{{mensaje}}</p>
+</ng-template>

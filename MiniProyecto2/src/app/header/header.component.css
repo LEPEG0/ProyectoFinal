@@ -1,0 +1,42 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: #cdcdcd;
+  }
+  
+  .menu {
+    z-index: 100;
+  }
+  .container{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline-flex;
+    font-family: system-ui;
+    font-size: 30px;
+  }
+  
+  ul li a {
+    color: #FF5A5F;
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+  
+  }
+  
+  nav ul li:hover {
+    background: #cdcdcd;
+  }
+
+  
